@@ -1,0 +1,14 @@
+{
+  "TaskName": "approachavoid",
+  "TaskDescription": "Approach-avoidance decision game (neurogame.ucsf.edu): per trial a reward offer (treasures) and a punishment offer (bombs); approach or avoid by button press within 6 s.",
+  "SamplingFrequency": 1000.0,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "iEEGReference": "bipolar (nearest neighbouring contact)",
+  "RecordingType": "epoched",
+  "EpochLength": 12.0,
+  "RecordingDuration": 2640.0,
+  "SEEGChannelCount": 16,
+  "DerivativeDescription": "Authors' high-frequency activity (70-150 Hz), aligned to trial onset (README: trigger 1 = align to trial onset); time zero at sample 5000 of each 12000-sample trial (-4.999 to +7.000 s). Trials back-to-back; values unchanged."
+}

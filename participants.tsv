@@ -1,0 +1,7 @@
+participant_id	age	sex	clinical_indication	n_ofc_electrodes_paper	history_of_mdd	n_electrodes_released	n_trials	site
+sub-01	27	M	Epilepsy	16	Yes	16	220	n/a
+sub-02	26	M	Epilepsy	19	No	17	192	n/a
+sub-03	27	F	MDD	36	Yes	37	192	n/a
+sub-04	46	M	MDD	22	Yes	22	220	n/a
+sub-05	22	M	Epilepsy	13	No	17	220	n/a
+sub-06	21	F	OCD	18	Yes	20	220	n/a

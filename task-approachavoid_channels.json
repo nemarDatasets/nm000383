@@ -1,0 +1,27 @@
+{
+  "anatomical_info": {
+    "Description": "electrode(k).anatomical_info string, verbatim (README: prefer the sulcal coordinates)"
+  },
+  "array": {
+    "Description": "subject(n).array(k), verbatim (not documented in the README)"
+  },
+  "lat_coor": {
+    "Description": "Distance relative to the lateral orbital sulcus (release field)",
+    "Units": "mm"
+  },
+  "med_coor": {
+    "Description": "Distance relative to the medial orbital sulcus (release field)",
+    "Units": "mm"
+  },
+  "mid_coor": {
+    "Description": "Release field mid_coor, verbatim (not documented in the README)"
+  },
+  "olf_coor": {
+    "Description": "Distance relative to the olfactory sulcus (release field)",
+    "Units": "mm"
+  },
+  "trans_coor": {
+    "Description": "Distance relative to the transverse orbital sulcus (release field)",
+    "Units": "mm"
+  }
+}

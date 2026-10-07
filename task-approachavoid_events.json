@@ -1,0 +1,74 @@
+{
+  "onset": {
+    "Description": "Start of the trial segment in the concatenated file",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Segment length (12 s: -4.999 to +7.000 s around the alignment event)",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Alignment of this file (acq entity): onset, decision, trig3, trig4, trig5"
+  },
+  "sample": {
+    "Description": "First sample (0-based) of the trial segment"
+  },
+  "trial_index": {
+    "Description": "1-based trial number (row of the released high_gamma_mat)"
+  },
+  "time_zero_onset": {
+    "Description": "Time of the alignment event (column 5000 of the released matrix)",
+    "Units": "s"
+  },
+  "time_zero_sample": {
+    "Description": "Sample (0-based) of the alignment event"
+  },
+  "choice": {
+    "Description": "subject(n).decision, verbatim (renamed: 'decision' is a reserved BIDS column)",
+    "Levels": {
+      "1": "approach",
+      "0": "avoidance",
+      "2": "value 2 occurs in the release and is not described in the README; the authors' code keeps trials with decision < 2"
+    }
+  },
+  "rt": {
+    "Description": "subject(n).rt, verbatim (reaction time)",
+    "Units": "ms"
+  },
+  "outcome": {
+    "Description": "subject(n).outcome, verbatim"
+  },
+  "reward_trial": {
+    "Description": "Reward offer on the trial (number of lit treasures)"
+  },
+  "punish_trial": {
+    "Description": "Punishment offer on the trial (number of lit bombs)"
+  },
+  "trial_type_trial": {
+    "Description": "Trial-type index (see sub-XX_trialtypes.tsv)"
+  },
+  "p_approach_trial": {
+    "Description": "Subject's overall approach probability for this trial type"
+  },
+  "conflict_trial": {
+    "Description": "Subject's behavioural conflict for this trial type"
+  },
+  "value_trial": {
+    "Description": "subject(n).value_trial, verbatim (not documented in the README)"
+  },
+  "source_trigger1": {
+    "Description": "subject(n).triggers(1) value for this trial, verbatim (sample index in the original recording; units not stated in the release)"
+  },
+  "source_trigger2": {
+    "Description": "subject(n).triggers(2) value for this trial, verbatim (sample index in the original recording; units not stated in the release)"
+  },
+  "source_trigger3": {
+    "Description": "subject(n).triggers(3) value for this trial, verbatim (sample index in the original recording; units not stated in the release)"
+  },
+  "source_trigger4": {
+    "Description": "subject(n).triggers(4) value for this trial, verbatim (sample index in the original recording; units not stated in the release)"
+  },
+  "source_trigger5": {
+    "Description": "subject(n).triggers(5) value for this trial, verbatim (sample index in the original recording; units not stated in the release)"
+  }
+}

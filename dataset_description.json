@@ -1,0 +1,54 @@
+{
+  "Name": "Medial and lateral orbitofrontal cortex in approach-avoidance decisions (Starkweather et al., 2026): SEEG high-frequency activity, 6 patients (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC0-1.0",
+  "Authors": [
+    "Clara Kwon Starkweather",
+    "Ethan H. Willbrand",
+    "Kristin K. Sellers",
+    "Patrick W. Hullett",
+    "Andrew D. Krystal",
+    "A. Moses Lee",
+    "Jon T. Willie",
+    "Peter Brunner",
+    "Ming Hsu",
+    "Edward F. Chang",
+    "Robert T. Knight"
+  ],
+  "EthicsApprovals": [
+    "Approval for the study was granted by the institutional review boards of the University of California, San Francisco (UCSF), University of California, Berkeley and Washington University in St. Louis (WUSTL). Written informed consent was obtained from all participants prior to testing. [Starkweather et al. 2026, Nature Neuroscience, Methods > Participants, doi:10.1038/s41593-026-02444-4]"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' preprocessing (FieldTrip; code https://github.com/cstarkweather/OFC_analysis_codes)",
+      "Description": "Bipolar re-reference to nearest neighbour; 0.5-200 Hz band-pass; 60 Hz notch + harmonics; HFA 70-150 Hz = mean of ten 10-Hz sub-band Hilbert envelopes, each normalised to a 10 s pre-task baseline; epoched per trial at 1 kHz."
+    },
+    {
+      "Name": "b2dryad_convert058.py",
+      "Description": "Repackaging only: trials back-to-back in BrainVision float32 (values unchanged), one file per alignment; behaviour into events.tsv. Code in code/."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5061/dryad.kh18932k7",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.kh18932k7",
+      "Version": "Dryad version 5 (published 2026-09-09)"
+    }
+  ],
+  "HowToAcknowledge": "Cite Starkweather CK, Willbrand EH, Sellers KK, Hullett PW, Krystal AD, Lee AM, Willie JT, Brunner P, Hsu M, Chang EF, Knight RT (2026) Intracranial recordings in humans reveal differential contributions of medial and lateral orbitofrontal cortex to approach-avoidance decision-making. Nature Neuroscience, doi:10.1038/s41593-026-02444-4; and Dryad doi:10.5061/dryad.kh18932k7.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41593-026-02444-4",
+    "https://doi.org/10.5061/dryad.kh18932k7",
+    "https://github.com/cstarkweather/OFC_analysis_codes",
+    "https://github.com/cstarkweather/Starkweather-neurogame"
+  ],
+  "Keywords": [
+    "SEEG",
+    "orbitofrontal cortex",
+    "approach-avoidance",
+    "decision-making",
+    "high-frequency activity",
+    "conflict"
+  ]
+}

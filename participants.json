@@ -1,0 +1,34 @@
+{
+  "age": {
+    "Description": "Age (Extended Data Table 1 of the article)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Sex (Extended Data Table 1)",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "clinical_indication": {
+    "Description": "Clinical indication for implantation (Extended Data Table 1): Epilepsy, MDD (major depressive disorder) or OCD"
+  },
+  "n_ofc_electrodes_paper": {
+    "Description": "Number of OFC electrodes listed for this subject in Extended Data Table 1"
+  },
+  "history_of_mdd": {
+    "Description": "History of major depressive disorder (Extended Data Table 1)"
+  },
+  "n_electrodes_released": {
+    "Description": "Electrodes present in subject(n).electrode of the Dryad release"
+  },
+  "n_trials": {
+    "Description": "Trials in the release"
+  },
+  "site": {
+    "Description": "Implanting site (UCSF n=5, WUSTL n=1 per README); per-subject site not given in the release"
+  },
+  "_mapping_note": {
+    "Description": "Extended Data Table 1 subject k is assumed to be release subject(k) (same order 1-6). The table's OFC-electrode counts (16,19,36,22,13,18) differ from the released electrode counts for some subjects, so the mapping is by order only, not verified."
+  }
+}

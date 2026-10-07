@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No x/y/z coordinates are released. Per-electrode distances to the lateral, medial, olfactory and transverse orbital sulci (lat/med/olf/trans_coor) and mid_coor, as released, are columns of channels.tsv."
+}

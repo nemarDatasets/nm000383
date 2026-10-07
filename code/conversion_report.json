@@ -1,0 +1,196 @@
+{
+ "subjects": [
+  {
+   "sub": "sub-01",
+   "electrodes": 16,
+   "trials": 220,
+   "recordings": [
+    {
+     "acq": "onset",
+     "sha256": "1a409a03a9afe2919a9ca25f38d1fbf0bcf044330fad90882ddae9d8ecf85c90",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "decision",
+     "sha256": "4ab094300e2d7527e3255884a6132782cd0594a0b6e2f069125035f20b097473",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "trig3",
+     "sha256": "f2e9f5fa355906a415b024bc2b8a1a6da8f8efef378218b796ba92cff6e75d87",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "trig4",
+     "sha256": "16b245f4cfeff1190612b83d67138a63f0a1ee26b9465f33764196c9e8b69eb3",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "trig5",
+     "sha256": "da53808d42d4d1482e853919d2a3f96bcb029eecc531fb7b783ff9098129090f",
+     "nan_fraction": 0.004545454545454545
+    }
+   ]
+  },
+  {
+   "sub": "sub-02",
+   "electrodes": 17,
+   "trials": 192,
+   "recordings": [
+    {
+     "acq": "onset",
+     "sha256": "e8a98eb2e435c6369f19683b03a1edbf0b677213d8a17267aedfc640d9b61bd0",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "decision",
+     "sha256": "067857d625e3130c362e964a24eb45c2fcf16c700dcedf8180a0bf60bc9f9fc9",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig3",
+     "sha256": "426b5a6006a95d4797921ad1191754421b4d5f9e526369934f75387e76762aa7",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig4",
+     "sha256": "eae07c42ce39f166d95fb4ae1a18287c9d46b5118b2a14c878db7371c5964dad",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig5",
+     "sha256": "583f0407c4c876f72aefa9dbe9efa8672228b1ff930e8859cf8b796e6454faf3",
+     "nan_fraction": 0.0
+    }
+   ]
+  },
+  {
+   "sub": "sub-03",
+   "electrodes": 37,
+   "trials": 192,
+   "recordings": [
+    {
+     "acq": "onset",
+     "sha256": "edbd1c5be929514e1046a9431a026d561bda8187177568001d6a0ba04ded105c",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "decision",
+     "sha256": "3818517b75c7f5a0755f71752cde171aaaccae20eb33cfee4a4d7a553cbb5d59",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig3",
+     "sha256": "67fb28ba212fa1a13e63f1a375df46356286cc9ab8213a13250af1c97314041c",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig4",
+     "sha256": "0f04035a87297650ba86a3d9723e2439ebefc1f816a82f7e82d89af56b2070f8",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig5",
+     "sha256": "1e2f07a310b677eaaf10a9a069acef454432237c23123f10dc44dc70b246b899",
+     "nan_fraction": 0.0
+    }
+   ]
+  },
+  {
+   "sub": "sub-04",
+   "electrodes": 22,
+   "trials": 220,
+   "recordings": [
+    {
+     "acq": "onset",
+     "sha256": "9ce1da2cdbf0674460b7840afcf25c2c15cb7d1f80b076ab43dd68872e09bb67",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "decision",
+     "sha256": "dc5cfeaf212b2f8e05ae2b84cc4b8e7d4c214ce0a2171f5b0b609bb61b95073d",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "trig3",
+     "sha256": "b72d77d944bd0be1478b407bc356cfd1270f65b039f5910b4c8c510fb657bcf5",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "trig4",
+     "sha256": "a291a9fc32b4536612cf3c835b3eab530fa2e897b60cc9dc8c312ea1d4cfed8e",
+     "nan_fraction": 0.004545454545454545
+    },
+    {
+     "acq": "trig5",
+     "sha256": "978c1bc4a71e48dd95f4b5a8f17d0facd3a8872fb16519b682b621b639e2699a",
+     "nan_fraction": 0.004545454545454545
+    }
+   ]
+  },
+  {
+   "sub": "sub-05",
+   "electrodes": 17,
+   "trials": 220,
+   "recordings": [
+    {
+     "acq": "onset",
+     "sha256": "a998a3edfc2fa29615caf34b2ba118263a6e3f544f29eb9236cf343f3fd25ae2",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "decision",
+     "sha256": "51014a20066c1bdc48d3697d7f668a1a274ad982ead9ad742606edffc51f2948",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig3",
+     "sha256": "76ec97465d6c8c809f0536f8204a622daae8d5a9d3a947ffdbd0f8a9ed682769",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig4",
+     "sha256": "fd6e77699ecc223eefc4eb84c7fcc82c6a244cd431a7e719df67a8f421054184",
+     "nan_fraction": 0.0
+    },
+    {
+     "acq": "trig5",
+     "sha256": "5b336ea9685e2d2d0ff7d4dbec00c0de5672b9bf38993603d4e07597023ed229",
+     "nan_fraction": 0.0
+    }
+   ]
+  },
+  {
+   "sub": "sub-06",
+   "electrodes": 20,
+   "trials": 220,
+   "recordings": [
+    {
+     "acq": "onset",
+     "sha256": "accf1f170a9aa55ff681391f2b68e4f719b94643effe714131b96d1ca8f4328f",
+     "nan_fraction": 0.04090909090909091
+    },
+    {
+     "acq": "decision",
+     "sha256": "3cb8bd52935c9bafffa89e528c437b3ee3d546c7b9fbf522eb2589d73c17a018",
+     "nan_fraction": 0.04090909090909091
+    },
+    {
+     "acq": "trig3",
+     "sha256": "8f33115f3cadafdeed839f867fdea19f06af45ea7ad2916e61da4261a2cf1b6d",
+     "nan_fraction": 0.04090909090909091
+    },
+    {
+     "acq": "trig4",
+     "sha256": "b5804601083d16448385609302d9c704e2b8abd5fc63df9ae6bf0ab390c30df7",
+     "nan_fraction": 0.04090909090909091
+    },
+    {
+     "acq": "trig5",
+     "sha256": "933c2bcff7fbae92fa2228223a0bcaeee3e7a96049c81193e0e0b5369f2e05ce",
+     "nan_fraction": 0.04090909090909091
+    }
+   ]
+  }
+ ]
+}
