@@ -1,0 +1,37 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000383-blue)](https://doi.org/10.82901/nemar.nm000383)
+
+# Approach-avoidance decisions in human orbitofrontal cortex: SEEG high-frequency activity (derivative)
+
+DERIVATIVE dataset. The Dryad release contains the authors' processed high-frequency activity (HFA, 70-150 Hz), not raw iEEG.
+
+## Source
+- Dryad: Starkweather, Willbrand, Sellers, Hullett, Krystal, Lee, Willie, Brunner, Hsu, Chang, Knight. doi:10.5061/dryad.kh18932k7
+  (version 5, 2026-09-09). License CC0 1.0.
+- Article: Starkweather et al. (2026) Nature Neuroscience, doi:10.1038/s41593-026-02444-4 (open access).
+- Analysis code: https://github.com/cstarkweather/OFC_analysis_codes. Task: https://github.com/cstarkweather/Starkweather-neurogame
+- Original files unchanged in `sourcedata/dryad-kh18932k7/` (subject.mat, behavior_data.mat, README.md).
+
+## Participants and ethics
+Six patients with stereotactic depth electrodes (five implanted at UCSF, one at WUSTL), implanted for epilepsy, MDD or OCD.
+Ethics (verbatim from the article): "Approval for the study was granted by the institutional review boards of the University of
+California, San Francisco (UCSF), University of California, Berkeley and Washington University in St. Louis (WUSTL). Written
+informed consent was obtained from all participants prior to testing."
+Age, sex and clinical indication come from Extended Data Table 1 of the article, matched to the release by subject order
+(see participants.json for the caveat).
+
+## Files
+- `sub-XX/ieeg/sub-XX_task-approachavoid_acq-<align>_ieeg.*`: BrainVision float32. One file per alignment in the release
+  (`electrode(k).trigger(1..5)`): `onset` (trigger 1, trial onset) and `decision` (trigger 2, button press) as described by the
+  README; `trig3`, `trig4`, `trig5` are present in the release but not described, and are kept as released. Each trial is a
+  12000-sample segment at 1 kHz with time zero at sample 5000 (-4.999 to +7.000 s; the authors' code uses column 5000 as time
+  zero). The release README mentions 10000 columns; the files hold 12000. Values are unchanged (units not stated: n/a).
+- `*_events.tsv`: one row per trial: segment boundaries, alignment time, and per-trial behaviour (choice = release field `decision`, rt, outcome, offers,
+  trial type, approach probability, conflict, value) plus the raw `triggers` values, all verbatim.
+- `*_goodtrials.tsv`: `electrode(k).trigger(j).good_trials` per channel and trial (1 = kept by the authors' artifact review).
+- `*_channels.tsv`: release electrodes (E01..), bipolar, with the release's anatomical label, `array` value and sulcal coordinates.
+- `sub-XX/sub-XX_trialtypes.tsv`: per-trial-type tables (offers, approach probability, conflict, value). `sub-XX_VAS.tsv`: VAS field.
+- No x/y/z electrode coordinates are released (electrodes.tsv has n/a).
+
+## Notes
+- The release README says 100 electrodes remained after exclusions; the `subject.mat` holds 129 electrode entries in total
+  (16, 17, 37, 22, 17, 20). All are included as released; `array` and `good_trials` are kept for filtering.
