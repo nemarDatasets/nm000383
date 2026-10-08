@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Medial and lateral orbitofrontal cortex in approach-avoidance decisions (Starkweather et al., 2026): SEEG high-frequency activity, 6 patients (derivative)",
+  "description": "Derivative stereo-EEG dataset of high-frequency activity (HFA, 70-150 Hz) recorded from six patients with depth electrodes performing an approach-avoidance decision task. It supports analysis of the differential contributions of medial and lateral orbitofrontal cortex to decision-making under conflict. The data are the authors' processed HFA, epoched per trial and aligned to trial onset and decision, and are accompanied by per-trial behavioural data and artifact-review labels.",
+  "methods_description": "Patients with stereotactic depth electrodes (implanted for epilepsy, MDD or OCD) performed an approach-avoidance task. Signals were bipolar re-referenced, band-pass filtered at 0.5-200 Hz, notch filtered at 60 Hz and its harmonics, and HFA (70-150 Hz) was computed as the mean of ten 10-Hz sub-band Hilbert envelopes, each normalised to a 10 s pre-task baseline. Data were epoched per trial at 1 kHz.",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "Clara Kwon Starkweather": {
       "orcid": "0000-0002-7772-5363"
@@ -28,6 +33,26 @@
       "orcid": "0000-0001-8686-1685"
     }
   },
+  "keywords": [
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "orbitofrontal cortex"
+    },
+    {
+      "term": "approach-avoidance"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "high-frequency activity"
+    },
+    {
+      "term": "conflict"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5061/dryad.kh18932k7",
@@ -50,14 +75,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Medial and lateral orbitofrontal cortex in approach-avoidance decisions (Starkweather et al., 2026): SEEG high-frequency activity, 6 patients (derivative)",
-  "license": "CC0-1.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "11.27 GB (62 files)"
   ],
@@ -69,29 +91,8 @@
     ".py",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "A BIDS-formatted derivative dataset of stereotactic EEG (SEEG) high-frequency activity (70-150 Hz) recorded from six patients performing an approach-avoidance decision-making task. It supports analysis of how medial and lateral orbitofrontal cortex contribute to approach-avoidance conflict decisions. The data are the authors' processed HFA epochs aligned to trial onset and button press, repackaged with behavioural variables, channel information, and trial-quality annotations.",
-  "methods_description": "Patients with implanted depth electrodes (five at UCSF, one at WUSTL) performed an approach-avoidance task. Signals were bipolar re-referenced, band-pass filtered (0.5-200 Hz), notch filtered at 60 Hz and harmonics, and HFA (70-150 Hz) was computed as the mean of ten 10-Hz sub-band Hilbert envelopes normalised to a 10 s pre-task baseline. Trials were epoched at 1 kHz into 12000-sample segments aligned to trial onset or decision.",
-  "keywords": [
-    {
-      "term": "SEEG"
-    },
-    {
-      "term": "orbitofrontal cortex"
-    },
-    {
-      "term": "approach-avoidance"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "high-frequency activity"
-    },
-    {
-      "term": "conflict"
-    }
-  ],
-  "source_hash": "82000ad3254fd4972d2ce82596e6fd3478a840d606664e27485f99c112df7fa2"
+  "source_hash": "d0788fca58de0d98350069d0795234f06fa3e8c7e2cc1a4d1b6697184ae717c8"
 }
