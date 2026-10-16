@@ -1,5 +1,5 @@
 {
-  "Name": "Medial and lateral orbitofrontal cortex in approach-avoidance decisions (Starkweather et al., 2026): SEEG high-frequency activity, 6 patients (derivative)",
+  "Name": "Starkweather-2026-intracranial-10.1038/s41593-026-02444-4",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC0-1.0",
@@ -52,5 +52,5 @@
     "conflict"
   ],
   "DatasetDOI": "10.82901/nemar.nm000383",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
