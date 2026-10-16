@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Medial and lateral orbitofrontal cortex in approach-avoidance decisions (Starkweather et al., 2026): SEEG high-frequency activity, 6 patients (derivative)",
-  "description": "This derivative dataset provides processed stereo-EEG high-frequency activity (HFA, 70-150 Hz) recorded from orbitofrontal cortex in six patients with depth electrodes performing an approach-avoidance decision-making task. Trial-aligned HFA epochs are paired with per-trial behavioral variables including choice, reaction time, outcome, conflict and value. It repackages the authors' Dryad release into BIDS to examine the differential contributions of medial and lateral orbitofrontal cortex to approach-avoidance decisions.",
-  "methods_description": "Patients with stereotactic depth electrodes (implanted for epilepsy, MDD or OCD) performed an approach-avoidance task. Signals were bipolar re-referenced, band-pass filtered at 0.5-200 Hz, notch filtered at 60 Hz and harmonics, and HFA (70-150 Hz) was computed as the mean of ten 10-Hz sub-band Hilbert envelopes normalized to a 10 s pre-task baseline. Data were epoched per trial at 1 kHz and aligned to trial onset or button press.",
+  "description": "This derivative dataset contains stereotactic EEG (SEEG) high-frequency activity (70-150 Hz) recorded from six patients with depth electrodes while they performed an approach-avoidance decision-making task. It accompanies a study of the differential contributions of medial and lateral orbitofrontal cortex to approach-avoidance decisions. The data are the authors' processed, trial-epoched HFA envelopes, repackaged in BIDS with behavioural variables, trial-quality flags and channel metadata.",
+  "methods_description": "Patients with stereotactic depth electrodes (five at UCSF, one at WUSTL) performed an approach-avoidance task. SEEG signals were bipolar re-referenced, band-pass filtered at 0.5-200 Hz and notch filtered at 60 Hz and harmonics. HFA (70-150 Hz) was computed as the mean of ten 10-Hz sub-band Hilbert envelopes, each normalised to a 10 s pre-task baseline. Data were epoched per trial at 1 kHz and aligned to trial onset or decision.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -35,10 +35,7 @@
   },
   "keywords": [
     {
-      "term": "stereo-EEG"
-    },
-    {
-      "term": "intracranial EEG"
+      "term": "SEEG"
     },
     {
       "term": "orbitofrontal cortex"
@@ -47,13 +44,20 @@
       "term": "approach-avoidance"
     },
     {
-      "term": "Clinical Decision-Making",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000066491"
+      "term": "decision-making"
     },
     {
       "term": "high-frequency activity"
+    },
+    {
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
     }
   ],
   "related_identifiers": [
